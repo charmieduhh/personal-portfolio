@@ -1,0 +1,207 @@
+help
+.help
+help
+1+@
+1+2
+"hello".toUpperCase()
+db
+show dvs
+show dbs
+use animalShelter
+eb
+db
+show dbs
+use animalShelter
+db
+show collections
+db.dogs.insertOne({name: "Michi", age: 6, breed: "Australian Sheppard", catFriendly: true)}
+> db.dogs.insertOne({name: "Michi", age: 6, breed: "Australian Sheppard", catFriendly: true})
+db.dogs.insertOne({name: "Michi", age: 6, breed: "Austrlian Sheppard", catFriendly: true})
+show collections
+db.dogs.find()
+show collections
+db.collection.insertOne({name: "Michi", breed: "AS", age: 6, catFriendly: true}})
+db.collection.insertOne({name: "Michi", breed: "AS", age: 6, catFriendly: true})
+show collections
+use animalShelter
+show collections
+db.dogs.find()
+db.collection.insert({name: "Mumu", age: 2, breed: "AS", catFriendly: true}, name: "Sisig", age: 3, breed: "GS", catFriendly: false})
+db.collection.insert({name: "Mumu", age: 2, breed: "AS", catFriendly: true}, name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.collection.insert([{name: "Mumu", age: 2, breed: "AS", catFriendly: true}, {name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.dogs.find()
+> db.dogs.collection.insert([{name: "Mumu", age: 2, breed: "AS", catFriendly: true}, {name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.dogs.collection.insert([{name: "Mumu", age: 2, breed: "AS", catFriendly: true}, {name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.dogs.find()
+use dogs
+db.dogs.collection.insert([{name: "Mumu", age: 2, breed: "AS", catFriendly: true}, {name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.dogs.find()
+show dogs
+db.dogs.find()
+db.cats.insert({name: "
+db.cats.insert({name: "Muffy", age: 1, breed: "cat", dogFriendly: false})
+db.cats.find()
+db.dogs.find()
+use dogs
+db.dogs.find())
+db.dogs.find()
+db.cats.find()
+db.dogs.insert([{name: "Mumu", age: 2, breed: "AS", catFriendly: true}, {name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.dogs.find()
+db.dogs.insertOne({name: "Michi", age: 6, breed: "AS", catFrinedly: true})
+db.dogs.find()
+use animalShelter
+db.cats.find()
+db.dogs.find()
+db.dogs.insert([{name: "Mumu", age: 2, breed: "AS", catFriendly: true}, {name: "Sisig", age: 3, breed: "GS", catFriendly: false}])
+db.dogs.find()
+db.cats.find()
+db.cats.insertOne({name: "Muffy", age: 1, breed: "grey", dogFriendly: false})
+db.cats.find()
+db.dogs.find()
+db.dogs.find({breed: "AS"})
+db.dogs.find()
+db.dogs.find({catFriendly: true})
+db.dogs.updateOne({name: "Mumu"}, {$set: {age: 3})  )
+db.dogs.updateOne({name: "Mumu"}, {$set: {age: 3}})
+db.dogs.find()
+db.dogs.updateOne({name: "Michi"}, {$set: {cuteness: "infinite"}})
+db.dogs,find()
+db.dogs.find()
+;
+db.dogs.updateMany({catFriendly: true}, {cuteness: "infinite"}})
+db.dogs.updateMany({catFriendly: true}, {$set: {cuteness: "infinite}})
+> db.dogs.updateMany({catFriendly: true}, {$set: {cuteness: "infinite"}})
+db.dogs.updateOne({catFriendly: true}, {$set: {cuteness: "infinite"}})
+db.dogs.find()
+;
+db.dogs.updateMany({catFriendly: true}, {$set: {cuteness: "infinite"}})
+db.dogs.find()
+db.cats.find()
+db.cats.updateOne({age: 1}, {$set: {age: 3}, $currentDate: {lastChanged: true}})
+db.cats.find()
+db.cats.deleteOne({name: "Muffy"})
+db.cats.find()
+db.cats.insertOne({name: "Muffy", age: 1, breed: "grey", dogFriendly: false})
+db.cats.find()
+db.dogs.find()
+db.cats.insertOne({name: "Muffin", age: 3, breed: "white"})
+db.cats.find()
+db.cats.deleteOne({breed: "white"})
+db.cats.find()
+db.dogs.deleteMany({})
+db.dogs.find()
+;
+db.dogs.find()
+;
+db.dogs.insertMany([{name: "Michi", age: 6, breed: "AS", weight: 60, size: 'M', personality: { catFriendly: true, childFriendly: true}},{name: "Sisig", age: 3, breed: "GS", weight: 100, size: 'L', personality: {catFriendly: true, childFriendy: true}}, {name: "Mumu", age: 1, breed: "AS", weight: 55, size: "M", personality: {catFriendly: false, childFriendly: true}}, {name: "Calle", age: 1, breed: "AS", weight: 70, personality: {catFriendly: false, childFriendly: false}}])
+db.dogs.find()
+db.dogs.find({age: 1})
+db.dogs.findOne({age: 1})
+db.dogs.find({'personality.childFriendly': false})
+db.dogs.find({'personality.childFriendly': true})
+db.dogs.find({'personality.childFriendly': true}, size: "M"})
+db.dogs.find({'personality.childFriendly: true}, size: "M")
+db.dogs.find({'persohnality.childFriendly: true, size: "M"})
+db.dogs.find({'personality.childFriendly': true, size: "M"})
+db.dogs.find({age: $gt: 1}})
+db.dogs.find({age: $gt: 1})
+db.dogs.find({age: {$gt: 1}})
+db.dogs.find({age: {$gte: 1}})
+db.dogs.find({breed: {%in: ['AS']}})
+db.dogs.find({breed: {$in: ['AS']}})
+db.dogs.find({breed: {$in: ['GS']}})
+db.dogs.find({breed: {$in: ['AS', 'GS']}})
+db.dogs.find({breed: {$in: ['AS']}, age: {$lt: 2}})
+db.dogs.find({breed: {$nin: ['AS']}})
+db.dogs.find({$or:[{'personality.catFriendly': true}, {age: {$lt:2}}]})
+node index.js
+ls
+cd
+use movieApp
+db.movies.find()
+thisIsForty.save()
+db.movies.find()
+thisIsForty.save()
+ls
+use movieApp
+show collections
+db.movies.find()
+db.movies.deleteOne({title: "This is 40
+db.movies.deleteOne({title: "This is 40"})
+db.movies.find()
+db.movies.find()
+show dbs
+use movieApp
+show collections
+db.movies.find()
+Movie.find()
+movie.find()
+db.movies.find()
+Movie.updateOne({title: 'This is 40'}), {year: 2012}).then(res => console.log(res))
+db.movies.find()
+Movie.updateOne({title: 'This is 40'}, {year: 2012}).then(res => console.log(res))
+Movies.updateOne({title: 'This is 40'}, {year: 2012}).then(res => console.log(res))
+db.movies.find()
+db.movies.deleteOne({name: 'This is 40
+db.movies.deleteOne({title: 'This is 40'}, {year: 2014})
+db.movies.find()
+db.products.find()
+use products
+db.products.find()
+use shopApp
+db.products.find()
+use shopApp
+db.product.find()
+db.products.find()
+db.products.deleteOne({})
+db.products.find()
+use shopApp
+db.products.find()
+.load person.js
+show collections
+db.people.find()
+use shopApp
+show collections
+db.people.find()
+show dbs
+use farmStand
+show collections
+db.products.find()
+db.products.deleteOne({name: 'Fairy Eggplant'})
+db.products.find()
+db.products.deleteOne({name: 'Organic Goddess Melon'})
+db.products.deleteOne({name: 'Organic Mini Seedless Watermelon'})
+db.products.deleteOne({name: 'Organic Celery'})
+db.products.deleteOne({name: 'Chocolate Whole Milk'})
+db.products.find()
+db.products.deleteMany({name: 'Greek Yogurt'})
+db.products.find()
+use yelp-camp
+db.campgrounds.find()
+use yelp-camp
+db.campgrounds.find()
+use yelp-camp
+db.campgrounds.find()
+db.campgrounds.deleteOne({name: 'purple field'})
+db.campgrounds.find()
+use yelp-camp
+db.campgrounds.find()
+db.mongoose.find()
+db.campgrounds.find()
+use products
+use yelp-camp
+db.campgrounds.find()
+db.campgrounds.deleteOne({name: 'Camp Pendleton'})
+db.campgrounds.deleteMany({name: 'Camp Pendleton'})
+db.campgrounds.find()
+db.campgrounds.deleteMany({name: 'Camp Wimbleton'})
+db.campgrounds.deleteMany({name: 'Camp Wimbleton', 'Camp Pendleton'})
+db.campgrounds.deleteMany({name: 'Camp Wimbleton'})
+db.campgrounds.deleteMany({name: 'Camp Pendleton'})
+db.campgrounds.deleteOne({name: 'Camp Peepee'})
+db.campgrounds.find()
+db.campgrounds.find().pretty()
+db.campgrounds.find()
+db.campgrounds.find({name: 'Camp Joshua Tree'})
+db.campgrounds.find()
