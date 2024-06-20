@@ -16,7 +16,7 @@ const Footer = () => {
               className="absolute inset-0 w-full h-full object-contain"
             />
           </div> */}
-          <p className="text-indigo-950 text-left">About: built with Next.js (App Router), React, Javascript, Tailwind CSS, Resend, Cloudflare hosting</p>
+          <p className="text-indigo-950 text-left">About: Built with Next.js (App Router), React, Javascript, Tailwind CSS, Resend, Cloudflare hosting</p>
         </div><br/>
         <p className="text-indigo-950">© 2024 Charmie Dubongco. All rights reserved.</p>
       </div>
