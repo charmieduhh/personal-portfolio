@@ -80,7 +80,7 @@ const HeroSection = () => {
             {/* https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3F3bXBjdThzNzVyMGEyejJiNWVmNTQ2aDdkaTZvaXQ5ZHduY2xzZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gioLPAqDRZjzYpmuCp/giphy.gif */}
             <div className="absolute inset-0 bg-black opacity-50"></div> {/* Dark overlay */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
-                <h1 className="text-4xl md:text-6xl font-extrabold mb-4">HI, I'M CHARMIE</h1>
+                <h1 className="text-4xl md:text-6xl font-extrabold mb-4">HI, I&apos;M CHARMIE</h1>
                 <div className="text-2xl md:text-4xl font-bold">
                     <TypeAnimation
                         sequence={[

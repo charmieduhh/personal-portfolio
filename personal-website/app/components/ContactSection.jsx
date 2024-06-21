@@ -47,7 +47,7 @@ const ContactSection = () => {
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="flex items-center text-xl font-bold text-indigo-950 my-2">
-          Let's Connect!
+          Let&apos;s Connect!
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
           </svg>
@@ -55,8 +55,8 @@ const ContactSection = () => {
 
         <p className="text-indigo-950 mb-4 max-w-md">
           {" "}
-          I'm actively seeking new opportunities and my inbox is always open. 
-          Whether you're curious about something or simply want to say hello, I'm here and ready to connect. 
+          I&apos;m actively seeking new opportunities and my inbox is always open. 
+          Whether you&apos;re curious about something or simply want to say hello, I&apos;m here and ready to connect. 
           I promise to get back to you as soon as possible!
         </p>
         <div className="socials flex flex-row gap-2">
