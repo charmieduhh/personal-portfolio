@@ -87,7 +87,7 @@ const AboutSection = () => {
       <div className="mt-9 text-center">
         <h2 className={`text-4xl font-bold text-white mb-9" ${roboto.className}`}>ABOUT ME</h2>
         <p className="roboto text-base mt-9 lg:text-lg">
-        Hey there, I'm Charmie! I'm a freelance full-stack engineer who's all about blending my love for the great outdoors with my passion for community. Whether it's hitting the slopes, exploring nature trails, or diving into team sports, you'll find me embracing every adventure life throws my way. After years in healthcare, I stumbled upon my true calling: crafting digital experiences that matter. Now, I'm on a mission to fuse my technical know-how with my creative spark to make a real difference in the world. Let's join forces and embark on this exciting journey together!
+        Hey there, I&apos;m Charmie! I&apos;m a freelance full-stack engineer who&apos;s all about blending my love for the great outdoors with my passion for community. Whether i&apos;s hitting the slopes, exploring nature trails, or diving into team sports, you&apos;ll find me embracing every adventure life throws my way. After years in healthcare, I stumbled upon my true calling: crafting digital experiences that matter. Now, I&apos;m on a mission to fuse my technical know-how with my creative spark to make a real difference in the world. Let&apos;s join forces and embark on this exciting journey together!
          </p>
       </div>
      
